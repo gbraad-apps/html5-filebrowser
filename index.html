@@ -5,8 +5,13 @@
         <meta name="description" content="Very basic filebrowser to inspect a device filesystem">
         <meta name="title" content="Filebrowser">
         <title>Filebrowser</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <input type="file">
+        <div id="container">
+            <input type="file" id="file" name="file" />
+            <output id="preview" />
+        </div>
+        <script src="./app.js"></script>
     </body>
 </html>
